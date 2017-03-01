@@ -3,16 +3,39 @@
     <meta charset="utf-8">
     <title>Simple example of Assistant.js.</title>
 
+    <link rel="stylesheet" href="minimal.css">
     <link rel="stylesheet" href="../build/assistant.css">
   </head>
   <body>
-    <div class="field">
-      <label>Título</label>
-      <input type="text" data-assistant="title">
+    <h1>Assistant.js</h1>
+    <h2>Simple Example</h2>
 
-      <!-- REMOVER -->
-      <ul class="js-assistant"></ul>
-    </div>
+    <form action="?" method="get">
+      <div class="field">
+        <label>Title</label>
+        <input type="text" data-assistant="title">
+        <!-- REMOVER --><ul class="js-assistant"></ul>
+      </div>
+
+      <div class="field">
+        <label>Description</label>
+        <input type="text" data-assistant="description">
+      </div>
+
+      <div class="field">
+        <label>Keywords</label>
+        <input type="text" data-assistant="keywords">
+      </div>
+
+      <div class="field">
+        <label>Article</label>
+        <textarea data-assistant="content"></textarea>
+      </div>
+
+      <div class="actions">
+        <button type="submit">Send</button>
+      </div>
+    </form>
 
     <script src="../build/assistant.js"></script>
   </body>

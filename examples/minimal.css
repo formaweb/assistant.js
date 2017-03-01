@@ -1,0 +1,60 @@
+*
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: normal 16px sans-serif;
+  padding: 25px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+form {
+  border: 1px solid silver;
+  margin: 25px auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  border: 1px solid black;
+  padding: 8px;
+  width: 100%;
+}
+
+textarea {
+  min-height: 250px;
+  resize: vertical;
+}
+
+.field + .field {
+  border-top: 1px solid silver;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.actions {
+  margin-top: 20px;
+  text-align: center;
+}
