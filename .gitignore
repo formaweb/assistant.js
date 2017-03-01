@@ -1,0 +1,12 @@
+# Application
+build
+
+# Node
+node_modules
+*.node
+
+# OS
+.DS_Store
+
+# Others
+*.log
